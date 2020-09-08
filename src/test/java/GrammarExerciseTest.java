@@ -22,6 +22,7 @@ class GrammarExerciseTest {
         List<String> expected = Arrays.asList("A P P L E", "B E A U T I F U L", "D O G");
         //when
         List<String> result = grammarExercise.findCommonWordsWithSpace(first, second);
+        System.out.println(result);
         //then
         assertIterableEquals(result, expected);
     }
